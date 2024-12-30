@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+/* Custom gradient styles */
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+/* Typography customization */
+.prose {
+  max-width: none;
+}
+
+.prose-invert {
+  --tw-prose-body: #fff;
+  --tw-prose-headings: #fff;
+  --tw-prose-links: #fff;
+  --tw-prose-bold: #fff;
+  --tw-prose-counters: #fff;
+  --tw-prose-bullets: #fff;
+  --tw-prose-quotes: #fff;
+  color: #fff;
+}
+
+/* Custom animations
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+*/
